@@ -6,7 +6,7 @@ public class TestDataReader {
 
     private static ResourceBundle resourceBundle;
     static {
-        resourceBundle = ResourceBundle.getBundle(System.getProperty("env","qa"));
+        resourceBundle = ResourceBundle.getBundle(System.getProperty("env","example1"));
     }
 
     public static String getTestData(String key) {
